@@ -1,32 +1,46 @@
-# My Portfolio
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This project is menat to have a complete portolio of my work. Using the tools and knowledge that I learn in my school Microverse.
+# Portfolio
 
-![screenshot](./images/app_screenshot.png)
+> One paragraph statement about the project.
+
+![screenshot]()
+![screenshot]()
+
+Additional description about the project and its features.
 
 ## Built With
 
 - HTML
 - CSS
+- Javascript
 
 ## Live Demo
 
-[Live Demo Link](https://elerqsousy.github.io/portfolio/)
+[Live Demo Link]()
 
-## Authors
+## Author
 
-👤 **Mahmoud Rizk**
+👤 **Vignesh**
 
-- GitHub: [@Elerqsousy](https://github.com/Elerqsousy)
-- LinkedIn: [Mahmoud El Erqsousy](https://www.linkedin.com/in/mahmoud-rizk/)
+- GitHub: [@vikipretium](https://github.com/vikipretium)
+- Twitter: [@vikipretium](https://twitter.com/vikipretium)
+- LinkedIn: [vikipretium](https://linkedin.com/in/vikipretium)
 
-## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
 
