@@ -1,0 +1,146 @@
+@media only screen and (max-width: 768px) {
+    .ham-icon {
+        display: block;
+        width: 45px;
+        height: 45px;
+        padding: 15px;
+        margin-left: 7px;
+        margin-top: 10px;
+        z-index: 2;
+        position: absolute;
+    }
+
+    .ham-bar {
+        width: 32px;
+        height: 6px;
+        background-color: #272a31;
+        margin-bottom: 3px;
+
+    }
+
+    .overlay {
+        display: none;
+    }
+
+    .sec-intro {
+        background-image: url("/assets/images/bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .intro-container {
+        background-color: rgba(255, 255, 255, 0.6);
+        height: 100%;
+
+    }
+
+
+    .intro-greet {
+        font-family: 'Lato', sans-serif;
+        color: #fd3620;
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin: 100px 20px 0;
+    }
+
+    .intro-title {
+        font-family: 'COCOGOOSE', sans-serif;
+        color: #ec5242;
+        margin: 0 20px;
+        background-image: url(/assets/images/image-clip.jpg );
+        background-size: 50%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .intro-description {
+        font-family: 'Lato', sans-serif;
+        border: 3px solid white;
+        padding: 15px 15px;
+        margin: 0 20px;
+        font-weight: normal;
+        font-size: 20px;
+        color: #5e5e5e;
+        line-height: 1.5rem;
+        margin-top: 20px;
+        background-color: rgba(243, 243, 243, 0.747);
+
+    }
+
+    .intro-date {
+        font-family: 'COCOGOOSE', sans-serif;
+        color: #5e5e5e;
+        font-size: 1.4rem;
+        margin: 20px 20px 0 20px;
+
+    }
+
+    .intro-location {
+        font-family: 'Lato', sans-serif;
+        color: #5e5e5e;
+        margin: 0 20px 255px;
+        font-weight: 400;
+    }
+
+    /* Main program */
+
+    .main-program {
+        background-color: rgb(39, 39, 39);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main-program-title {
+        font-family: 'Lato', sans-serif;
+        color: #d3d3d3;
+        font-size: 1.3em;
+        padding-top: 30px;
+    }
+
+    .main-program-line {
+        width: 40px;
+        height: 1px;
+        background-color: #ec5242;
+        margin: 10px 10px;
+    }
+
+
+
+    .main-program-slot {
+        background-color: #ffffff20;
+        margin: 10px 10px;
+        display: grid;
+        grid-template-columns: 18% 18% 58%;
+        grid-column-gap: 3%;
+        padding: 10px;
+    }
+
+    .main-program-slot-names {
+        align-self: center;
+        color: #ec5242;
+    }
+
+    .main-program-slot-description {
+        color: #fff;
+    }
+
+    .main-program-button {
+        background-color: #ec5242;
+        padding: 30px 15%;
+        border-style: none;
+        color: #fff;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    
+
+
+}
