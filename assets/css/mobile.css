@@ -51,7 +51,7 @@
         font-family: 'COCOGOOSE', sans-serif;
         color: #ec5242;
         margin: 0 20px;
-        background-image: url(/assets/images/image-clip.jpg );
+        background-image: url("/assets/images/image-clip.jpg");
         background-size: 50%;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -140,7 +140,7 @@
         margin: 10px;
     }
 
-    
+
 
 
 }
