@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .ham-icon {
         display: block;
         width: 45px;
@@ -6,7 +6,6 @@
         padding: 15px;
         margin-left: 7px;
         margin-top: 10px;
-        z-index: 2;
         position: absolute;
     }
 
@@ -18,8 +17,44 @@
 
     }
 
+
     .overlay {
         display: none;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        background-color: rgba(37, 37, 37, 0.747);
+        overflow: hidden;
+        backdrop-filter: blur(10px);
+    }
+
+    .close-icon {
+        position: fixed;
+        top: 20px;
+        right: 50px;
+        font-size: 50px;
+        color: #fff;
+    }
+
+    .overlay-tabs {
+        color: #fff;
+        padding: 30px;
+        list-style: none;
+
+    }
+
+    .overlay-tabs a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 3rem;
+        font-family: 'Lato', sans-serif;
+    }
+
+    .tab {
+        margin-top: 50px;
     }
 
     .sec-intro {
@@ -42,15 +77,16 @@
     .intro-greet {
         font-family: 'Lato', sans-serif;
         color: #fd3620;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         font-weight: 400;
         margin: 100px 20px 0;
     }
 
     .intro-title {
         font-family: 'COCOGOOSE', sans-serif;
+        font-size: 60px;
         color: #ec5242;
-        margin: 0 20px;
+        margin: 10px 20px;
         background-image: url("../images/image-clip.jpg");
         background-size: 50%;
         -webkit-background-clip: text;
@@ -89,7 +125,9 @@
     /* Main program */
 
     .main-program {
-        background-color: rgb(39, 39, 39);
+        background-color: #262932;
+        background-image: url("/assets/images/icons/main-bg.png");
+        background-size: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -115,7 +153,7 @@
 
     .main-program-slot {
         background-color: #ffffff20;
-        margin: 10px 10px;
+        margin: 5px 15px;
         display: grid;
         grid-template-columns: 18% 18% 58%;
         grid-column-gap: 3%;
@@ -137,10 +175,134 @@
         border-style: none;
         color: #fff;
         font-size: 20px;
-        margin: 10px;
+        margin: 50px;
     }
 
+    /* speakers */
+    .speakers {
+        padding: 40px;
+    }
 
+    .speakers-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .speakers-title h2 {
+        font-family: 'Lato', sans-serif;
+        color: #555;
+    }
 
+    .speakers-line {
+        width: 15%;
+        height: 2px;
+        background-color: #ec5242;
+        margin-top: 15px;
+    }
+
+    .speaker {
+        margin-top: 40px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .speaker-img {
+        /* width: 100%;
+        height: 100%;
+        overflow: hidden; */
+        /* flex-basis: 30%;
+        flex:1.2; */
+        box-sizing: border-box;
+        width: 150px;
+        height: 150px;
+        min-width: 150px;
+        min-height: 150px;
+        position: relative;
+        flex: 0.3;
+
+    }
+
+    .checker {
+        /* background-image: repeating-conic-gradient(#ffffff 0% 25%, #000000 0% 50%); */
+        background-image: url("/assets/images/icons/chess.jpg");
+        background-size: 100% 100%;
+        background-color: #000000;
+        width: 40%;
+        height: 40%;
+        position: relative;
+        top: 0;
+        left: 0;
+
+        z-index: -1;
+    }
+
+    .speaker-img img {
+        /* padding: 13px; */
+        width: 90%;
+        height: 90%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        
+        /* max-width: 104%; */
+        /* height: auto; */
+    }
+
+    .speaker-details {
+        flex: 2;
+        font-size: 15px;
+    }
+
+    .speaker-details h3 {
+        font-family: 'Lato', sans-serif;
+        color: #555;
+
+    }
+
+    .speaker-details-topic {
+
+        font-style: italic;
+        color: #ec5242;
+        margin-top: 10px;
+
+    }
+
+    .speaker-details-bio {
+        color: #555;
+        margin-top: 10px;
+    }
+
+    .speaker-details-line {
+        width: 30px;
+        height: 2px;
+        background-color: rgb(0, 0, 0);
+        margin-top: 10px;
+
+    }
+
+    .speakers-list div:nth-child(3),
+    .speakers-list div:nth-child(4),
+    .speakers-list div:nth-child(5),
+    .speakers-list div:nth-child(6) {
+        display: none;
+    }
+
+    .more {
+        text-align: center;
+        padding: 20px;
+        font-family: 'Lato', sans-serif;
+        color: #555;
+        margin-top: 60px;
+        border: 1px solid;
+        border-color: rgb(212, 212, 212);
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
+    .more i {
+        color:#ec5242 ;
+    }
 }

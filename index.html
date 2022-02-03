@@ -21,24 +21,22 @@
             <div class="ham-bar"></div>
         </div>
         <div class="overlay">
-            <i class="far fa-times"></i>
+            <a class="close-icon"><i class="far fa-times"></i></a>
             <ul class="overlay-tabs">
-                <li class="tab">About</li>
-                <li class="tab">Program</li>
-                <li class="tab">Speakers</li>
-                <li class="tab">Partners</li>
-                <li class="tab">Blog</li>
-                <li class="tab">Buy Tickets</li>
+                <li class="tab"><a href="/assets/html/about.html">About</a></li>
+                <li class="tab"><a href="#sec-program">Program</a></li>
+                <li class="tab"><a href="#speakers">Speakers</a></li>
+                <li class="tab"><a href="#partners">Partners</a></li>
+                <li class="tab"><a href="#blog">Blog</a></li>
+                <li class="tab"><a href="#buy-tickets">Buy Tickets</a></li>
             </ul>
         </div>
     </header>
     <section class="sec-intro" id="sec-intro">
         <div class="intro-container">
             <h3 class="intro-greet">"Hello! Blenderians"</h3>
-            <h1 class="intro-title">Blender Conference 2022</h1>
-            <div class="intro-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet ut voluptates
-                nostrum recusandae eveniet odit quasi deserunt illo asperiores rerum. Dignissimos enim magni recusandae
-                fugit.</div>
+            <h1 class="intro-title">Blender<br>Conference<br>2022</h1>
+            <div class="intro-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quis.</div>
             <h2 class="intro-date">2022.02.02(WED) ~ 03(THU)</h2>
             <h4 class="intro-location">@Compagnietheater Amsterdam</h4>
         </div>
@@ -93,17 +91,21 @@
         </div>
     </section>
     <section class="speakers" id="speakers">
-        <div class="feature-speakers">
-            <div class="speaker">
-                <img src="" alt="">
-                <h5></h5>
-                <p></p>
-                <hr>
-                <p></p>
+        
+            <div class="speakers-title">
+                <h2>Featured Speakers</h2>
+                <div class="speakers-line"></div>
+            </div>
+            <div class="speakers-list">
+                
+               
             </div>
 
-            <div class="more"><span>more</span></div>
-        </div>
+            <div class="more">
+                <span>MORE</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        
     </section>
     <section class="partners" id="partners">
         <div class="div-partners">
@@ -114,6 +116,8 @@
     <footer>
 
     </footer>
+    <script src="/assets/js/menu.js"></script>
+    <script src="/assets/js/speaker.js"></script>
 </body>
 
 </html>

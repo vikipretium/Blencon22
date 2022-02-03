@@ -1,8 +1,13 @@
-@media screen and (min-width: 769px){
+@media screen and (min-width: 768px){
+    /* hidden-items-mobile */
     .ham-icon {
         display: none;
     }
     .overlay {
         display: none;
     }
+
+    /* hidden-items-mobile */
+
+    
 }
