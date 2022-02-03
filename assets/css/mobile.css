@@ -126,7 +126,7 @@
 
     .main-program {
         background-color: #262932;
-        background-image: url("/assets/images/icons/main-bg.png");
+        background-image: url("../images/icons/main-bg.png");
         background-size: auto;
         display: flex;
         flex-direction: column;
@@ -225,7 +225,7 @@
 
     .checker {
         /* background-image: repeating-conic-gradient(#ffffff 0% 25%, #000000 0% 50%); */
-        background-image: url("/assets/images/icons/chess.jpg");
+        background-image: url("../images/icons/chess.jpg");
         background-size: 100% 100%;
         background-color: #000000;
         width: 40%;
