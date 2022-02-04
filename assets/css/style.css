@@ -2,20 +2,18 @@
 @import url("https://fonts.cdnfonts.com/css/Lato");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Lato', sans-serif;
-    /* font-weight: 400; */
-    color: #555;
+body {
+  font-family: Lato, sans-serif;
+  color: #555;
+  position: relative;
+  overflow-x: hidden;
 }
 
-html, body {
-    overflow-x: hidden;
-  }
-  body {
-    position: relative
-  }
+html {
+  overflow-x: hidden;
+}
