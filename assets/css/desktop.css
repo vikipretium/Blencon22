@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 
     /* hidden-items-mobile */
     .ham-icon {
@@ -70,7 +70,7 @@
         .intro-container {
             background-color: rgba(255, 255, 255, 0.6);
             height: 100%;
-            padding: 0 10em;
+            padding: 0 15em;
 
         }
 
@@ -412,7 +412,174 @@
     .footer div{
     }
     
+    .intro-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
 
+    .about-greet-mobile {
+        display: none;
+    }
+    .about-title {
+        text-align: center;
+        color: #ec5242;
+        -webkit-text-fill-color: #ec5242;
+        font-size: 40px;
+        margin-top: 50px;
+
+    }
+    .about-description-mobile {
+        display:none;
+    }
+    .about-description-desktop {
+        background-color: #fff;
+        border: 0.5px solid;
+        border-color: rgb(209, 209, 209);
+        border-radius: 3px;
+        text-align: center;
+        line-height: 1.5em;
+    }
+    .about-contact{
+        margin-top: 30px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        color: rgb(63, 63, 63);
+        font-size: 15px;
+    }
+    .about-email {
+        margin: 5px 0 50px 0;
+        text-align: center;
+    }
+    .about-email a{
+        text-decoration: underline;
+        color: rgb(63, 63, 63);
+    }
+    
+    .about-logo {
+        text-align: center;
+        color: #555;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lato', sans-serif;
+
+    }
+    .about-logo-title{
+        font-size: 30px;
+        margin-top: 30px;
+        color: black;
+        font-family: 'Lato', sans-serif;
+    }
+    .about-logo-line {
+        width: 5%;
+        align-self: center;
+        margin: 30px 0;
+        background-color: #ec5242;
+        border-color: #ec5242;
+    }
+    .about-logo-div {
+        margin: 20px 100px;
+        border: .3px solid rgb(206, 206, 206);
+        padding: 30px;
+        width: 40%;
+
+    }
+
+    .about-logo-div img {
+        width: 40%;
+        margin: 0
+    }   
+
+    .past-con-container {
+        font-family: 'Lato', sans-serif;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .past-con-title {
+        color: #272a31;
+        font-size: 2em;
+        margin-top: 2em;
+    }
+    .past-con-line{
+        width: 5%;
+        height: 2px;
+        border-color: #ec5242;
+        margin-top: 15px;
+    }
+    .past-con-description {
+        padding: 10px;
+        margin: 10px;
+        color: #555;
+    }
+    .past-con-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 2em 15em 4em  ;
+    }
+    .past-con-img1{
+        background-image: url("../images/2018.jpeg");
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        /* padding: 20px; */
+        background-size: 100% auto;
+        width: 80%;
+        height: 300px;
+
+
+    }
+    .past-con-img2{
+        background-image: url("../images/2019.jpg");
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        background-size: 100% auto;
+        width: 80%;
+        height: 300px;
+    }
+    .past-con-overlay {
+        background-color: #ec524290;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        font-family: 'Lato', sans-serif;
+        color: #fff;
+        
+    }
+    .past-con-overlay h2{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .partner{
+        display: none;
+    }
+
+    .footer {
+        background-color: #555;
+        padding: 3em 0em;
+        color: #fff;
+    }
+    .footer img {
+        filter: grayscale(100%) brightness(300%);
+    }
 
 
 

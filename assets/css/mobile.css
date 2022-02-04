@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     
     /* mobile-home */
     .ham-icon {
@@ -317,7 +317,7 @@
 
     /* mobile-home */
 
-    .about-greet {
+    .about-greet-mobile {
         text-align: center;
     }
     .about-title {
@@ -326,12 +326,12 @@
         -webkit-text-fill-color: #ec5242;
         font-size: 40px;
     }
-    .about-description {
+    .about-description-mobile {
         background-color: #fff;
         border: 0.5px solid;
         border-color: rgb(209, 209, 209);
         border-radius: 3px;
-        margin-top: 50px;
+        margin: 50px 20px 0 20px;
     }
     .about-contact{
         margin-top: 30px;
@@ -394,6 +394,7 @@
     }
     .past-con-title {
         color: #272a31;
+        margin-top: 1em;
     }
     .past-con-line{
         width: 5%;
@@ -537,11 +538,11 @@
         display: none;
     }
 
-    .partner {
+    .partner-desktop {
         display: none;
     }
 
-    .footer {
+    .footer-desktop {
         display: none;
     }
 
