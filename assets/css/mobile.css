@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   /* mobile-home */
   .ham-icon {
     display: block;
@@ -283,8 +283,8 @@
     margin-top: 10px;
   }
 
-  .speakers-list div:nth-child(3),
-  .speakers-list div:nth-child(4),
+  /* .speakers-list div:nth-child(3),
+  .speakers-list div:nth-child(4), */
   .speakers-list div:nth-child(5),
   .speakers-list div:nth-child(6) {
     display: none;
@@ -323,9 +323,9 @@
   }
 
   .about-description-mobile {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.644);
     border: 0.5px solid;
-    border-color: rgb(209 209 209);
+    border-color: rgba(209 209 209);
     border-radius: 3px;
     margin: 50px 20px 0;
   }
