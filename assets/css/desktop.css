@@ -32,8 +32,8 @@
 
   .tab img {
     height: 25px;
-    margin-left: 4rem;
     margin-right: 10rem;
+    padding: 0 calc(0.2 * (100vw - 768px) + 12px);
   }
 
   .tab a {
@@ -58,7 +58,7 @@
     justify-content: center;
     background-color: rgb(255 255 255 / 60%);
     height: 100%;
-    padding: 0 6em;
+    padding: 0 calc(0.2 * (100vw - 768px) + 12px);
   }
 
   .intro-greet {
