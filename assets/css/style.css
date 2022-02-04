@@ -1,0 +1,19 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  color: #555;
+  position: relative;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
